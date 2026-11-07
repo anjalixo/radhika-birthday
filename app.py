@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).parent
-PHOTO_DIR = BASE_DIR / "photos"
+PHOTO_DIR = BASE_DIR 
 
 def image_to_base64(path):
     with open(path, "rb") as image_file:
